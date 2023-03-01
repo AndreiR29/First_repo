@@ -14,11 +14,11 @@ public class Problema2 {
         int numar = Integer.parseInt(scanner.nextLine());
 
         while (numar > 0) {
-            suma = suma + numar * numar;
+            suma = suma + numar;
 
             System.out.print("Introduceti urmatorul numar: " );
             numar = Integer.parseInt(scanner.nextLine());
         }
-        System.out.println("Suma patratelor este: " + suma);
+        System.out.println("Suma numerelor precedente este: " + suma);
     }
 }
